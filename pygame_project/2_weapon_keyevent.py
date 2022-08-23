@@ -67,7 +67,7 @@ while running:
                 character_to_x -= character_speed
             elif event.key == pygame.K_RIGHT: # 캐릭터를 오른쪽으로
                 character_to_x  += character_speed
-            elif event.key == pygame.K_SPACE: # 무기 발사
+            elif event.key == pygåame.K_SPACE: # 무기 발사
                 weapon_x_pos = character_x_pos + (character_width / 2) - (weapon_width / 2)
                 weapon_y_pos = character_y_pos
                 weapons.append([weapon_x_pos, weapon_y_pos])
